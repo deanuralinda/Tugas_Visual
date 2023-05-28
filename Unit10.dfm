@@ -3,7 +3,7 @@ object Form10: TForm10
   Top = 207
   Width = 928
   Height = 480
-  Caption = 'Form10'
+  Caption = 'Main Menu'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -46,6 +46,10 @@ object Form10: TForm10
       object DATAPRAKTIKUM1: TMenuItem
         Caption = 'DATA PRAKTIKUM'
         OnClick = DATAPRAKTIKUM1Click
+      end
+      object JADWALPRAKTIKUM21: TMenuItem
+        Caption = 'JADWAL PRAKTIKUM 2'
+        OnClick = JADWALPRAKTIKUM21Click
       end
     end
     object LATIHAN1: TMenuItem

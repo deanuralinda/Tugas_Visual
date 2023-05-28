@@ -21,6 +21,7 @@ type
     DATAPENYAKIT1: TMenuItem;
     DATAPRAKTIKUM1: TMenuItem;
     PRAKTEKMANDIRI1: TMenuItem;
+    JADWALPRAKTIKUM21: TMenuItem;
     procedure KALULATOR1Click(Sender: TObject);
     procedure KONDISIONAL11Click(Sender: TObject);
     procedure ONDISIONAL21Click(Sender: TObject);
@@ -29,6 +30,7 @@ type
     procedure DATAPENYAKIT1Click(Sender: TObject);
     procedure DATAPRAKTIKUM1Click(Sender: TObject);
     procedure PRAKTEKMANDIRI1Click(Sender: TObject);
+    procedure JADWALPRAKTIKUM21Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -40,7 +42,7 @@ var
 
 implementation
 
-uses Unit1, Unit3, Unit4, Unit9, Unit6, Unit7, Unit8, Unit2;
+uses Unit1, Unit3, Unit4, Unit9, Unit6, Unit7, Unit8, Unit2, Unit11;
 
 {$R *.dfm}
 
@@ -82,6 +84,11 @@ end;
 procedure TForm10.PRAKTEKMANDIRI1Click(Sender: TObject);
 begin
 Form2.showmodal;
+end;
+
+procedure TForm10.JADWALPRAKTIKUM21Click(Sender: TObject);
+begin
+  Form11.showmodal;
 end;
 
 end.
